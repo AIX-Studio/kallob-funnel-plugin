@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kallob Funnel"
+  short_description: "Open Kallob Funnel and make sales funnels with Codex"
+  default_prompt: "Open Kallob Funnel."

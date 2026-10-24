@@ -1,0 +1,21 @@
+{
+  "name": "kallob-funnel",
+  "interface": {
+    "displayName": "Kallob Funnel"
+  },
+  "plugins": [
+    {
+      "name": "kallob-funnel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AIX-Studio/kallob-funnel-plugin",
+        "ref": "funnel-plugin-v1.0.0"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

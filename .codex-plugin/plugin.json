@@ -1,0 +1,34 @@
+{
+  "name": "kallob-funnel",
+  "version": "1.0.0",
+  "description": "Kallob Funnel for Codex: sales funnels for your shop, written by Codex and run from your own Cloudflare.",
+  "author": {
+    "name": "AIX Studio / Kallob"
+  },
+  "license": "Proprietary",
+  "keywords": [
+    "funnel",
+    "landing-page",
+    "sme",
+    "local-first"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Kallob Funnel",
+    "shortDescription": "Sales funnels for your shop, written by Codex",
+    "longDescription": "Open Kallob Funnel on this machine: pick a funnel (gift, event, booking, sales, coupon, catalog, recruiting, quiz, bridge page), fill a short form, and Codex writes every page. Funnels go online on your own Cloudflare; leads and orders come back to this machine. Your Kallob account decides whether Kallob Funnel is open.",
+    "developerName": "AIX Studio / Kallob",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Open Kallob Funnel.",
+      "Show my funnels' new orders.",
+      "Make a gift funnel in Kallob Funnel."
+    ],
+    "brandColor": "#0E2B24"
+  },
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "funnel-studio",
+  "version": "4.0.0",
+  "buildId": "7ef62c4-mvlyncsp",
+  "requiresCore": ">=2.37.1 <3",
+  "exports": {},
+  "requires": {},
+  "connections": {
+    "cloudflare": {
+      "range": "^1.0",
+      "operations": [
+        "list",
+        "host"
+      ]
+    }
+  },
+  "client": {
+    "script": "client.js",
+    "style": "client.css"
+  }
+}
